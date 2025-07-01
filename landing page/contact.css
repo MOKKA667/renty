@@ -1,0 +1,116 @@
+#contact{
+    height: 100vh;
+    width: 100%;
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text{
+    padding: 10vh 10vw;
+}
+.text h2,.text h4,.text p{
+    color: navy;
+}
+.text h2{
+    font-size: 2rem;
+}
+.text h4{
+    font-size: 1.4rem;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.text p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.where{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.formul{
+    padding: 10vh 10vw 10vh 0;
+    
+    
+}
+.hhh{
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    
+    border-radius: 12px;
+    padding: 0 40px;
+    
+}
+.formul h3{
+    color: navy;
+    font-size: 1.8rem;
+}
+.formul p{
+     color: navy;
+    font-size: 1.4rem;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+}
+form .area{
+    padding: 20px 10px;
+    margin: 10px 0;
+    border-radius: 12px;
+    border: none;
+    background-color:whites ;
+    transition: 0.5s ease;
+    
+
+    
+}
+form .area:hover{
+    border-color: navy;
+    box-shadow: 0 0 5px #9595f5;
+    transform: scale(1.02);
+    outline: none;
+
+}
+form .area:focus{
+    border-color: navy;
+    box-shadow: 0 0 5px #9595f5;
+    transform: scale(1.02);
+    outline: none;
+    
+}
+form .area::placeholder{
+    font-family: var(--font);
+    color: navy;
+    opacity: 0.6;
+
+
+}
+form textarea{
+    height: 100px;
+    resize: none;
+}
+.msg button{
+
+    border-radius: 8px;
+    width: 25%;
+    padding: 8px;
+    border: none;
+    background-color: navy;
+    color: whitesmoke;
+    margin: 10px 0;
+    position: relative;
+    left: 75%;
+    font-family:var(--font) ;
+    font-size: 1.1rem;
+    transition: 0.3s;
+
+}
+.msg button:hover{
+    background-color: #9595f5;
+}
+
